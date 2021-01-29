@@ -19,6 +19,12 @@ img {
   height: auto;
 }
 
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
 .container {
   min-width: 100vw;
   min-height: 100vh;

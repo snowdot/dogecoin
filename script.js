@@ -1,3 +1,4 @@
+const text = document.getElementById('text');
 const countdown = document.getElementById('countdown');
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
@@ -21,6 +22,13 @@ const x = setInterval(function () {
 
     if (remaining < 0) {
         clearInterval(x);
-        countdown.innerHTML = 'HODL!';
+        countdown.style.display = 'none';
+        text.innerHTML = `
+            <p>~ Wave 2 has ended ~</p>
+            <div>
+                HODL.<br>
+                Road to 1$ for Dogecoin
+            </div>
+        `;
     }
 }, 1000);
