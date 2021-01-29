@@ -24,7 +24,7 @@ const x = setInterval(function () {
         clearInterval(x);
         countdown.style.display = 'none';
         text.innerHTML = `
-            <p>~ Wave 2 has ended ~</p>
+            <p>~ Wave 2 has started ~</p>
             <div>
                 HODL.<br>
                 Road to 1$ for Dogecoin
