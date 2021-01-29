@@ -3,7 +3,7 @@ const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
-const date = new Date('Jan 29, 2021 22:00:00').getTime();
+const date = 1611950400000;
 
 const x = setInterval(function () {
     const now = new Date().getTime();
